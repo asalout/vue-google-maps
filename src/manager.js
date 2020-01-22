@@ -64,7 +64,7 @@ export const loadGmapApi = (options, loadCn) => {
         .join('&')
 
     googleMapScript.setAttribute('src', url)
-    googleMapScript.setAttribute('async', '')
+    // googleMapScript.setAttribute('async', '')
     googleMapScript.setAttribute('defer', '')
     document.body.appendChild(googleMapScript)
   } else {
